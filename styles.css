@@ -12,12 +12,14 @@ body {
   height: 72px;
   background: blueviolet;
   color: white;
+  text-align: center;
 }
 
 .footer {
   height: 72px;
   background: lightgrey;
   color: darkblue;
+  text-align: center;
 }
 
 .sidebar {
