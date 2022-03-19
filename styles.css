@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 16px;
 }
 
 .header {
@@ -22,9 +23,18 @@ body {
 .sidebar {
   width: 300px;
   background: whitesmoke;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 
 
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .card {
@@ -34,11 +44,14 @@ body {
   width: 200px;
   
   
+  
 }
 
 .main-content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
   
 
 }
